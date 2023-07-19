@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <div class="logo">
+          <a href="../web.html"><img src="../photos/logo.png" alt="Logo"></a>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="../web.html">Գլխավոր</a></li>
+            <li><a href="#">Մեր մասին</a></li>
+            
+            <div class="dropdown">
+              <button id="lenguge">Տեսականի</button>
+              <div class="dropdown-content">
+                <a href="#" id="btn">Աքսեսուարներ</a>
+                <a href="#" id="btn">Կոմպոնենտներ</a>
+                <a href="../pcnotebook/pc.html" id="btn">Համակարգիչ/Նոթբուք</a>
+              </div>
+            </div>
+
+          </ul>
+        </div>
+        <div class="headmanu">
+            <ul>
+              <li><i class="bi bi-journal-text" id="change-size"></i></li>
+              <li><i class="bi bi-bag" id="change-size"></i></li>
+              <li><i class="fa-regular fa-heart" id="change-size"></i></li>
+              <li><i class="bi bi-person" id="openPopupButton"></i></li>
+            </ul>
+        </div>
+    </div>
+  </header>
+  
+    <div id="popupContainer">
+      <div id="mainPopup">
+        <div class="container-two">
+          <i class="bi bi-x" id="closeIcon"></i>
+          <p class="popp">Հաշիվ</p>
+          <button id="infoButton">Մուտք</button>
+          <button id="infoButton">Գրանցվել</button>
+        </div>
+      </div>
+    
+      <div id="nestedPopup">
+        <section>
+          <h1>Մուտք</h1>
+          <i class="bi bi-x" id="nestedCloseIcon"></i>
+        </section>
+        <form>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Գրել ձեր էլ. հասցեն">
+          </div>
+          <div class="form-group">
+            <label for="password">Գաղտնաբառ</label>
+            <input type="password" id="password" name="password" placeholder="Գրել ձեր գաղտնաբառը">
+          </div>
+          <div class="form-group" id="box-m">
+            <label for="rememberMe">Մոռացե՞լ եք գաղտնաբառը</label>
+            <input type="checkbox" id="rememberMe" name="rememberMe">
+          </div>
+          <div class="form-group">
+            <button type="submit">Մուտք</button>
+          </div>
+          <div class="form-group">
+            <p class="form-or">կամ</p>
+          </div>
+          <div class="form-group">
+            <nav>
+              <ul>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></i></a></li>
+              </ul>
+            </nav>
+          </div>
+          <div id="just-line">
+            <div id="linee"></div>
+          </div>
+          <div class="acoount">
+            <p>Դեռ չունե՞ք հաշիվ <a href="#">Գրանցվել</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    
+
+    <!-- 222222222222222222222222222222 -->
+
+
+    <div class="logo-contact">
+        <img src="../photos/cont-logo.png" alt="">
+    </div>
+
+    <!-- 3333333333333333333333333333333333 -->
+
+    <div class="inform-line">
+        <div class="container">
+            <div class="mini-div">
+            <img src="../photos/cont-ic-1.png" alt="Image 1">
+            <p>5 տարի շուկայում</p>
+            </div>
+            <div class="mini-div">
+            <img src="../photos/cont-ic-2.png" alt="Image 2">
+            <p>Շուրջ 300 <br> ապրանքատեսակ</p>
+            </div>
+            <div class="mini-div">
+            <img src="../photos/cont-ic-3.png" alt="Image 3">
+            <p>Մոտ 50 հայտնի <br> ապրանքանիծներ</p>
+            </div>
+            <div class="mini-div">
+            <img src="../photos/cont-ic-4.png" alt="Image 4">
+            <p>Թվով 100 <br> աշխատակից</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 44444444444444444444444444444444 -->
+      
+    <div class="just-text">
+        <p>«Նայբուք» խանութների ցանցը համակարգիչների վաճառքով զբաղվող ամենամեծ ցանցն է Հայաստանում: «Նայբուք» -ն իր գործունեությունն <br> իրականացնում է 2006թ.-ից: Հետագայում իր բարեխիղճ և բարձրորակ ծառայությունների մատուցման շնորհիվ ընկերությունը արագորեն նվաճեց <br> հաճախորդների վստահությունը և կարճ ժամանակում ընդլայնեց իր գործունեության աշխարհագրությունը: Տվյալ պահին «Նայբուք»-ը ներկայացնում է <br> մասնագիտացված խանութ-սրահներ քաղաք Երևանում և բոլոր մարզերում: <br> «Նայբուք»-ի կարգախոսն է « Միայն լավագույնը» և այդ կարգախոսին հավատարիմ լինելով՝ ընկերությունը համագործակցում է միայն բաձրորակ <br> ապրանք արտադրող համաշխարհային բրենդների հետ, ինչպիսիք են՝ Samsung, Nokia, Apple, Lenovo, Motorola, HTC, Sony, Micromax, CellularLine, Celly, <br> Hama , MyKronoz , SBS, Panzer Glass , Ksix, Canyon , ACME, Remax , Devia , Beper, Tescoma և այլ ապրանքանիշները: Հանդիսանալով վերոնշյալ <br> ընկերությունների պաշտոնական ներկրողը Հայաստանում` հաճախորդներին առաջարկում է միայն որակյալ ապրանք՝ տրամադրելով 1 տարվա <br> պաշտոնական երաշխիք անմիջապես արտադրողից: Ընկերությունն իր հաճախորդին առաջարկում է ոչ միայն բջջային հեռախոսներ, այլ նաև <br> բազմատեսակ տեխնիկա՝ հեռուստացույցներ, պլանշետներ և այլն: </p>
+
+        <p class="text-two"> <span> Ընկերության խանութ-սրահներն աշխատում են շաբաթը 7 օր, ընկերությունը համագործակցում է Հայաստանում գործող գրեթե բոլոր առաջատար </span> <br> բանկերի հետ, ապառիկը ձևակերպվում է տեղում և այս ամենը ուղղված է միայն հաճախորդների հարմարավետ, արագ և շահավետ գնումներ <br> կատարելուն: Ընկերության կազմի մեջ մտնում է նաև մասնագիտացված սպասարկման կենտրոնը, որն ապահովում է Նայբուք խանութների ցանցից <br> ձեռք բերված տեխնիկայի ինչպես երաշխիքային, այնպես էլ հետերաշխիքային սպասարկումը: Չնայած առկա տեխնիկայի բարձրորակ <br> ապրանքատեսականու հսկայական ծավալներին՝ իր որդեգրած քաղաքականության շնորհիվ ընկերությունն օրեցօր աճում և ընդլայնվում է՝ իր <br> հաճախորդներին ներկայանալով տեխնիկայի ավելի լայն ու ժամանակակից տեսականիով:</p>
+    </div>
+
+    <!-- 5555555555555555555555555555555555555555 -->
+
+    <div class="iconsss">
+        <div class="container">
+            <div class="left-ic">
+                <ul>
+                    <li><a href="#"><i class="fa-regular fa-envelope"></i> info@naibook.am </a></li>
+                    <li><a href="#"><i class="bi bi-telephone"></i>+374 99969696</a></li>
+                </ul>
+            </div>
+            <div class="right-ic">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 666666666666666666666666666666 -->
+
+
+    <div class="gps"></div>
+
+
+    <!-- 77777777777777777777777777 -->
+
+    <div class="login-menu">
+        <div class="container">
+            <div class="left-section">
+                <form>
+                    <label for="name">Անուն</label>
+                    <input type="text" id="namee" name="name">
+            
+                    <label for="emaili">Էլ․ փոստ</label>
+                    <input type="emaiil" id="emaill" name="emaill">
+                </form>
+            </div>
+            <div class="right-section">
+                <form>
+                    <label for="comment">Հաղորդագրություն</label>
+                    <textarea id="comment" name="comment"></textarea>
+            
+                </form>
+            </div>
+            <div class="for-send">
+                <button>ՈՒղարկել</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- foterrrrrrrrrrrrrrrr -->
+
+    <footer>
+        <div class="container-for-footer">
+          <div class="left">
+            <img src="../photos/logo.png" alt="Company Logo">
+            <p>Համակարգչային խանութ Երևանում Մենք <br> առաջարկում ենք համակարգիչների լայն տեսականի <br> և տրամադրում ենք համապատասխան <br> ծառայություններ բիզնեսի և անհատների համար:</p>
+          </div>
+          <div class="right">
+            <nav>
+              <p>ՄԵՐ ՄԱՍԻՆ</p>
+              <ul>
+                <li><a href="#">Ծառայություններ</a></li>
+                <li><a href="#">Վճարում և առաքում</a></li>
+                <li><a href="#">Կապ</a></li>
+              </ul>
+            </nav>
+            <nav class="two-nav">
+              <p>ՏԵՍԱԿԱՆԻ</p>
+              <ul>
+                <li><a href="#">Նոթբուքեր</a></li>
+                <li><a href="#">Համակարգիչներ</a></li>
+                <li><a href="#">Աքսեսուարներ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </footer>
+    
+    
+    <div class="und-foo">
+        <div class="container-for-footer">
+            <div class="left-und-foo">
+            <p>© 2023 Նայբուք. Բոլոր իրավունքները պաշտպանված են</p>
+            </div>
+            <div class="right-und-foo">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+      
+
+
+
+    <script src="contact.js"></script>
+    <script src="https://kit.fontawesome.com/0589dd09fb.js" crossorigin="anonymous"></script>
+</body>
+</html>

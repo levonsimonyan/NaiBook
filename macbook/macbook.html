@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="macbook.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../web.html"><img src="../photos/logo.png" alt="Logo"></a>
+            </div>
+            <div class="links">
+              <ul>
+                <li><a href="../web.html">Գլխավոր</a></li>
+                <li><a href="../contact/contact.html">Մեր մասին</a></li>
+                
+                <div class="dropdown">
+                  <button id="lenguge">Տեսականի</button>
+                  <div class="dropdown-content">
+                    <a href="#" id="btn">Աքսեսուարներ</a>
+                    <a href="#" id="btn">Կոմպոնենտներ</a>
+                    <a href="../pcnotebook/pc.html" id="btn">Համակարգիչ/Նոթբուք</a>
+                  </div>
+                </div>
+    
+              </ul>
+            </div>
+            <div class="headmanu">
+                <ul>
+                  <li><i class="bi bi-journal-text" id="change-size"></i></li>
+                  <li><i class="bi bi-bag" id="change-size"></i></li>
+                  <li><i class="fa-regular fa-heart" id="change-size"></i></li>
+                  <li><i class="bi bi-person" id="openPopupButton"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+      
+    <div id="popupContainer">
+        <div id="mainPopup">
+        <div class="">
+            <i class="bi bi-x" id="closeIcon"></i>
+            <p class="popp">Հաշիվ</p>
+            <button id="infoButton">Մուտք</button>
+            <button id="infoButton">Գրանցվել</button>
+        </div>
+        </div>
+    
+        <div id="nestedPopup">
+        <section>
+            <h1>Մուտք</h1>
+            <i class="bi bi-x" id="nestedCloseIcon"></i>
+        </section>
+        <form>
+            <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Գրել ձեր էլ. հասցեն">
+            </div>
+            <div class="form-group">
+            <label for="password">Գաղտնաբառ</label>
+            <input type="password" id="password" name="password" placeholder="Գրել ձեր գաղտնաբառը">
+            </div>
+            <div class="form-group" id="box-m">
+            <label for="rememberMe">Մոռացե՞լ եք գաղտնաբառը</label>
+            <input type="checkbox" id="rememberMe" name="rememberMe">
+            </div>
+            <div class="form-group">
+            <button type="submit">Մուտք</button>
+            </div>
+            <div class="form-group">
+            <p class="form-or">կամ</p>
+            </div>
+            <div class="form-group">
+            <nav>
+                <ul>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></i></a></li>
+                </ul>
+            </nav>
+            </div>
+            <div id="just-line">
+            <div id="linee"></div>
+            </div>
+            <div class="acoount">
+            <p>Դեռ չունե՞ք հաշիվ <a href="#">Գրանցվել</a></p>
+            </div>
+        </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- esraniccc verevv headernaaa -->
+
+    <div class="apple-text">
+        <h1>Apple MacBook Air MLY23 M2 512GB Starlight</h1>
+    </div>
+
+
+    <!-- 22222222222222222222222222222 -->
+
+
+    <div class="apple-img-text">
+        <div class="container">
+            <div class="l-side">
+                <div class="gallery">
+                    <img src="../photos/mac1.png" onclick="changeImage(this)" alt="Image 1">
+                    <img src="../photos/mac2.png" onclick="changeImage(this)" alt="Image 2">
+                    <img src="../photos/mac3.png" onclick="changeImage(this)" alt="Image 3">
+                </div>
+                  
+                <div id="displayImage">
+                    <img src="../photos/mac1.png" onclick="changeImage(this)" alt="Image 1">
+                </div> 
+            </div>
+            <div class="r-side">
+                <div class="for-under-a-i">
+                    <div class="code-avai">
+                        <p>ԿՈԴ# 4267482</p>
+                        <span>ԱՌԿԱ Է</span>
+                        <h1>784,900 ֏</h1>
+                    </div>
+                    <div class="icons-code">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-bag" id="change-size"></i></a></i></li>
+                            <li><a href="#"><i class="fa-regular fa-heart" id="change-size"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="code-buttons">
+                    <button id="other-b">Համեմատել</button>
+                    <button id="but-one">Գնել</button>
+                </div>
+                <div class="textt">
+                    <ul>
+                        <p>Հակիրճ նկարագրություն</p>
+                        <li>Էկրանի տեսակ: <span>Retina XDR</span></li>
+                        <li>Վիդեոքարտի արտադրող: <span>Apple</span></li>
+                        <li>Օպերատիվ հիշողություն (RAM): <span>8 GB</span></li>
+                        <li>Մատրիցայի կետայնություն: <span>1080p FaceTime HD camera</span></li>
+                        <li>SSD կուտակիչ: <span>512 GB</span></li>
+                        <li>Չափսեր: <span>1.13 x 30.41 x 21.5 սմ</span></li>
+                        <li>Արտադրող: <span>Apple</span></li>
+                    </u>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myNavbar" class="navbar">
+        <div class="container-two">
+            <div class="close-z">
+                <span class="close-icon">&times;</span>
+                <h1>Զամբյուղ</h1>
+            </div>
+            <div class="mac-img-t">
+                <div class="mac-imgg">
+                    <img src="../photos/mac1.png" alt="">
+                </div>
+                <div class="remove-text">
+                    <p>Apple MacBook Air MLY23 M2 512GB </p>
+                    <nav>
+                        <ul><p>784.900 դր.</p></ul>
+                        <ul>
+                            <i class="bi bi-pencil"></i>
+                            <i class="bi bi-trash"></i>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="o-b-r-mix">
+            <div class="pink-line"></div>
+            <div class="container-two">
+                <nav class="order">
+                    <ul>
+                        <p>Ապրանքի գին</p>
+                        <p>Առաքում</p>
+                    </ul>
+                    <ul>
+                        <p>784.900 դր․</p>
+                        <p>0դր.</p>
+                    </ul>
+                </nav>
+                <nav class="ord-buttons">
+                    <ul>
+                        <h1>Ընդհանուր</h1>
+                        <button id="inac">Զամբյուղ</button>
+                    </ul>
+                    <ul>
+                        <h1 id="r-text">789,900 դր.</h1>
+                        <a href="../order/order.html"><button>Պատվիրել</button></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 33333333333333333333333333333333333333 -->
+
+
+    <div class="characteristic">
+        <div class="container-two">
+            <h1>Բնութագիր Apple MacBook Air MLY23 M2 512GB Starlight</h1>
+            <div class="min-inf-bolcks">
+                <ul>
+                    <p>General</p>
+                    <li>Արտադրող  Apple</li>
+                    <li>Կատեգորիա Բիզնես նոթբուք</li>
+                    <li>Երաշխիք 12 ամիս</li>
+                </ul>
+
+                <ul>
+                    <p>Անլար ցանցեր</p>
+                    <li>Wi-Fi-ի հնարավորություն IEEE 802.11 </li>
+                    <li>A/B/G/N/Ac/Ax</li>
+                    <li>Bluetooth Version 5.0</li>
+                </ul>
+
+                <ul>
+                    <p>Օպերացիոն համակարգ</p>
+                    <li>Օպերացիոն համակարգ Mac OS</li>
+                    <span>Կուտակիչ</span>
+                    <li>SSD կուտակիչ 512 GB</li>
+                </ul>
+
+                <ul>
+                    <p>Ձայն</p>
+                    <li>Ներկառուցված բարձրախոս 4</li>
+                    <li>Առանձնահատկություն ստերեո</li>
+                </ul>
+            </div>
+
+            <div class="white-line"></div>
+            
+            <div class="min-inf-bolcks">
+                <ul>
+                    <p>Պրոցեսոր</p>
+                    <li>Պրոցեսորի Արտադրող Apple</li>
+                    <li>Պրոցեսորի տեսակ M2</li>
+                    <li>Միջուկների քանակ 8</li>
+                </ul>
+
+                <ul>
+                    <p>Օպերատիվ հիշողություն</p>
+                    <li>Օպերատիվ հիշողություն (RAM) 8 GB</li>
+                    <li>Հիշողություն տեսակ LPDDR5</li>
+                    <li>Հիշողության հաճախականություն 5200 MHz</li>
+                </ul>
+
+                <ul>
+                    <p>Տեսախցիկ</p>
+                    <li>Մատրիցայի կետայնություն 1080p </li>
+                    <li>FaceTime HD camera</li>
+                    <li>Ներկառուցված միկրոֆոն Այո</li>
+                </ul>
+
+                <ul>
+                    <p>էկրան</p>
+                    <li>Անկյունագիծ "13.6"</li>
+                    <li>Կետայնություն 2560x1600 պիքս․</li>
+                    <li>Տեխնոլոգիա Liquid</li>
+                    <li>Էկրանի տեսակ Retina XDR</li>
+                </ul>
+            </div>
+
+            <div class="white-line"></div>
+            
+            <div class="min-inf-bolcks">
+                <ul>
+                    <p>էլեկտրասնուցում</p>
+                    <li>Աշխատանքը մարտկոցից Մինչև 18 ժ.</li>
+                    <li>Մարտկոցի հզորություն 52.6 Վտ-ժ</li>
+                </ul>
+
+                <ul>
+                    <p>Գույն, չափսեր, քաշ</p>
+                    <li>Գույն ոսկեգույն</li>
+                    <li>Չափսեր 1.13 x 30.41 x 21.5 սմ</li>
+                    <li>Քաշ 1.24 կգ</li>
+                </ul>
+
+                <ul>
+                    <p>Վիդեո քարտ</p>
+                    <li>Վիդեոքարտի արտադրող Apple</li>
+                    <span>Ստեղնաշար</span>
+                    <li>Ստեղների լուսավորություն Այո</li>
+                </ul>
+
+                <ul>
+                    <p>Ինտերֆեյս</p>
+                    <li>Thunderbolt 2</li>
+                    <li>3.5 մմ ականջակալների կցորդիչ Այո</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+      
+    <!-- foootttttteeerrrrrrrrrrr -->
+
+    <footer>
+        <div class="container-for-footer">
+          <div class="left">
+            <img src="../photos/logo.png" alt="Company Logo">
+            <p>Համակարգչային խանութ Երևանում Մենք <br> առաջարկում ենք համակարգիչների լայն տեսականի <br> և տրամադրում ենք համապատասխան <br> ծառայություններ բիզնեսի և անհատների համար:</p>
+          </div>
+          <div class="right">
+            <nav>
+              <p>ՄԵՐ ՄԱՍԻՆ</p>
+              <ul>
+                <li><a href="#">Ծառայություններ</a></li>
+                <li><a href="#">Վճարում և առաքում</a></li>
+                <li><a href="#">Կապ</a></li>
+              </ul>
+            </nav>
+            <nav class="two-nav">
+              <p>ՏԵՍԱԿԱՆԻ</p>
+              <ul>
+                <li><a href="#">Նոթբուքեր</a></li>
+                <li><a href="#">Համակարգիչներ</a></li>
+                <li><a href="#">Աքսեսուարներ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </footer>
+    
+    
+    <div class="und-foo">
+        <div class="container-for-footer">
+            <div class="left-und-foo">
+            <p>© 2023 Նայբուք. Բոլոր իրավունքները պաշտպանված են</p>
+            </div>
+            <div class="right-und-foo">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="macbook.js"></script>
+    <script src="https://kit.fontawesome.com/0589dd09fb.js" crossorigin="anonymous"></script>
+</body>
+</html>

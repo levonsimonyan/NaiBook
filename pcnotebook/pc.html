@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="pc.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+              <a href="../web.html"><img src="../photos/logo.png" alt="Logo"></a>
+            </div>
+            <div class="links">
+              <ul>
+                <li><a href="../web.html">Գլխավոր</a></li>
+                <li><a href="../contact/contact.html">Մեր մասին</a></li>
+                
+                <div class="dropdown">
+                  <button id="lenguge">Տեսականի</button>
+                  <div class="dropdown-content">
+                    <a href="#" id="btn">Աքսեսուարներ</a>
+                    <a href="#" id="btn">Կոմպոնենտներ</a>
+                    <a href="#" id="btn">Համակարգիչ/Նոթբուք</a>
+                  </div>
+                </div>
+    
+              </ul>
+            </div>
+            <div class="headmanu">
+                <ul>
+                  <li><i class="bi bi-journal-text" id="change-size"></i></li>
+                  <li><i class="bi bi-bag" id="change-size"></i></li>
+                  <li><i class="fa-regular fa-heart" id="change-size"></i></li>
+                  <li><i class="bi bi-person" id="openPopupButton"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+      
+    <div id="popupContainer">
+        <div id="mainPopup">
+        <div class="">
+            <i class="bi bi-x" id="closeIcon"></i>
+            <p class="popp">Հաշիվ</p>
+            <button id="infoButton">Մուտք</button>
+            <button id="infoButton">Գրանցվել</button>
+        </div>
+        </div>
+    
+        <div id="nestedPopup">
+        <section>
+            <h1>Մուտք</h1>
+            <i class="bi bi-x" id="nestedCloseIcon"></i>
+        </section>
+        <form>
+            <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Գրել ձեր էլ. հասցեն">
+            </div>
+            <div class="form-group">
+            <label for="password">Գաղտնաբառ</label>
+            <input type="password" id="password" name="password" placeholder="Գրել ձեր գաղտնաբառը">
+            </div>
+            <div class="form-group" id="box-m">
+            <label for="rememberMe">Մոռացե՞լ եք գաղտնաբառը</label>
+            <input type="checkbox" id="rememberMe" name="rememberMe">
+            </div>
+            <div class="form-group">
+            <button type="submit">Մուտք</button>
+            </div>
+            <div class="form-group">
+            <p class="form-or">կամ</p>
+            </div>
+            <div class="form-group">
+            <nav>
+                <ul>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></i></a></li>
+                </ul>
+            </nav>
+            </div>
+            <div id="just-line">
+            <div id="linee"></div>
+            </div>
+            <div class="acoount">
+            <p>Դեռ չունե՞ք հաշիվ <a href="#">Գրանցվել</a></p>
+            </div>
+        </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- esraniccc verevv headernaaa -->
+
+    <div class="mini-header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#" id="active">Համակարգիչ/Նոթբուք</a></li>
+                    <li><a href="#">Կոմպոնենտներ</a></li>
+                    <li><a href="#">Աքսեսուարներ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- 2222222222222222222222222222222222 -->
+
+    <div class="gif-text-area">
+        <div class="container">
+            <div class="g-text">
+                <h1>Համակարգիչ / Նոթբուք</h1>
+            </div>
+            <div class="g-gif">
+                <img src="../photos/kompgif.gif" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 33333333333333333333333333333333333333333 -->
+
+    <div class="cardss-and-navbar">
+        <div class="container">
+            <div class="navbar">
+              <ul>
+                <li id="glx-li"><a href="">Գրաֆիկական քարտ</a></li>
+                  <ul>
+                    <li><a href="#amd-radeon">&nbsp; AMD Radeon</a></li>
+                    <li><a href="#nvidia-geforce">&nbsp; Nvidia GeForce</a></li>
+                    <li id="for-icon"><i class="bi bi-chevron-down"></i></li>
+                  </ul>
+                <li id="glx-li"><a href="">Էկրանի չափսը</a></li>
+                  <ul>
+                    <li><a href="#17.3-inch">&nbsp; 17.3 դյույմ</a></li>
+                    <li><a href="#17-inch">&nbsp; 17 դյույմ</a></li>
+                    <li id="for-icon"><i class="bi bi-chevron-down"></i></li>
+                  </ul>
+
+                <li id="glx-li"><a href="">Էկրանի չափսը</a></li>
+                  <ul>
+                    <li><a href="#17.3-inch">&nbsp; 17.3 դյույմ</a></li>
+                    <li><a href="#17-inch">&nbsp; 17 դյույմ</a></li>
+                  </ul>
+
+                  <li id="glx-li"><a href="">Պրոցեսորի տեսակը</a></li>
+                  <ul>
+                    <li><a href="#">&nbsp; Intel Celeron</a></li>
+                    <li><a href="#">&nbsp; Intel Pentium</a></li>
+                    <li><a href="#">&nbsp; Core i3</a></li>
+                    <li><a href="#">&nbsp; Core i5</a></li>
+                    <li id="for-icon"><i class="bi bi-chevron-down"></i></li>
+                  </ul>
+
+
+                  <li id="glx-li"><a href="">Էկրանի կետայնություն</a></li>
+                  <ul>
+                    <li><a href="#">&nbsp; 1366x768 HD</a></li>
+                    <li><a href="#">&nbsp; 1600x900 HD+</a></li>
+                    <li id="for-icon"><i class="bi bi-chevron-down"></i></li>
+                  </ul>
+
+                  <li id="glx-li"><a href="">Օպերացիոն համակարգ</a></li>
+                  <ul>
+                    <li><a href="#">&nbsp; Dos</a></li>
+                    <li><a href="#">&nbsp; Windows 10</a></li>
+                    <li id="for-icon"><i class="bi bi-chevron-down"></i></li>
+                  </ul>
+
+                  <li id="glx-li"><a href="">Ապրանքանիշ</a></li>
+                  <ul>
+                    <li><a href="#">&nbsp; Asus</a></li>
+                    <li><a href="#">&nbsp; Apple</a></li>
+                    <li><a href="#">&nbsp; Dell</a></li>
+                    <li><a href="#">&nbsp; Lenovo</a></li>
+                    <li id="for-icon"><i class="bi bi-chevron-down"></i></li>
+                  </ul>
+            
+              </ul>
+            </div>
+            <div class="cards-m">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="card" id="wit-marg">
+                    <div class="card-image">
+                        <a href="../macbook/macbook.html">
+                            <img src="../photos/owl1.png" alt="Card image">
+                        </a>
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card" id="wit-marg">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card" id="wit-marg">
+                    <div class="card-image">
+                      <img src="../photos/owl1.png" alt="Card image">
+                    </div>
+                    <div class="heart">
+                      <i class="far fa-heart"></i>
+                      <br>
+                      <i class="bi bi-arrow-left-right" id="arrow"></i>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title">HP Laptop 15-DW4002NIA (Ram 16GB)</h1>
+                      <p class="card-text">330,000 դրամ</p>
+                      <div class="card-buttons">
+                        <button class="btn btn-primary">Ավելացնել Զամբյուղում</button>
+                      </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+    <!-- foooterrrrrrrrrrrrrrrrrrrrrr -->
+
+
+    <footer>
+        <div class="container-for-footer">
+          <div class="left">
+            <img src="../photos/logo.png" alt="Company Logo">
+            <p>Համակարգչային խանութ Երևանում Մենք <br> առաջարկում ենք համակարգիչների լայն տեսականի <br> և տրամադրում ենք համապատասխան <br> ծառայություններ բիզնեսի և անհատների համար:</p>
+          </div>
+          <div class="right">
+            <nav>
+              <p>ՄԵՐ ՄԱՍԻՆ</p>
+              <ul>
+                <li><a href="#">Ծառայություններ</a></li>
+                <li><a href="#">Վճարում և առաքում</a></li>
+                <li><a href="#">Կապ</a></li>
+              </ul>
+            </nav>
+            <nav class="two-nav">
+              <p>ՏԵՍԱԿԱՆԻ</p>
+              <ul>
+                <li><a href="#">Նոթբուքեր</a></li>
+                <li><a href="#">Համակարգիչներ</a></li>
+                <li><a href="#">Աքսեսուարներ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </footer>
+    
+    
+    <div class="und-foo">
+        <div class="container-for-footer">
+            <div class="left-und-foo">
+            <p>© 2023 Նայբուք. Բոլոր իրավունքները պաշտպանված են</p>
+            </div>
+            <div class="right-und-foo">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+    <script src="pc.js"></script>
+    <script src="https://kit.fontawesome.com/0589dd09fb.js" crossorigin="anonymous"></script>
+</body>
+</html>
